@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.kit.newsSubscriber.base.SwipeFlushView
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_163"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1dp">
+        </ListView>
+    </com.kit.newsSubscriber.base.SwipeFlushView>
+
+</LinearLayout>

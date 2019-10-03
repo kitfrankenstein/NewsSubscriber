@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Switch
+        android:id="@+id/focus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="focus"
+        android:text="接收通知"
+        android:textSize="10pt"
+        android:theme="@style/MySwitch" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="订阅"
+        android:textColor="#000000"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/rcmdBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="recommend"
+            android:text="推荐"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+
+        <CheckBox
+            android:id="@+id/intlBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="international"
+            android:text="国际"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/finBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="finance"
+            android:text="财经"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+
+        <CheckBox
+            android:id="@+id/milBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="military"
+            android:text="军事"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/techBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="technology"
+            android:text="科技"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+
+        <CheckBox
+            android:id="@+id/sptBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="sport"
+            android:text="体育"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/entBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="entertainment"
+            android:text="娱乐"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+
+        <CheckBox
+            android:id="@+id/eduBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="education"
+            android:text="教育"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/gameBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="game"
+            android:text="游戏"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+
+        <CheckBox
+            android:id="@+id/healBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:tag="health"
+            android:text="健康"
+            android:textSize="10pt"
+            android:theme="@style/My_CheckBox" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <Button
+        android:id="@+id/btnCache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除缓存" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除历史记录" />
+
+</LinearLayout>
